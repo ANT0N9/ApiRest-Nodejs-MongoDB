@@ -1,0 +1,28 @@
+###
+POST http://localhost:8000/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "",
+    "age": ,
+    "email": ""
+}
+
+###
+GET http://localhost:8000/api/users HTTP/1.1
+
+###
+GET http://localhost:8000/api/users/66030f16a31d8195917355d5 HTTP/1.1
+
+###
+PUT http://localhost:8000/api/users/66030f16a31d8195917355d5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "",
+    "age": ,
+    "email": ""
+}
+
+###
+DELETE http://localhost:8000/api/users/660315b42708b1e2e1612b75 HTTP/1.1
